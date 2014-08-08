@@ -1,0 +1,108 @@
+#playground {
+	background: #000000;
+	width: 800px;
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+}
+
+#playground:before {
+	left: 50%;
+    content:'';
+    width: 1px;
+    height: 800px;
+    top: 140px;
+    position: absolute;
+    border-left: 4px dashed #FDFDF0;
+}
+#topLine {
+	background-color: #FDFDF0;
+  	height: 4px;
+  	width: 800px;
+  	top: 130px;
+  	position: absolute;
+}
+
+#paddle1 {
+	background: #FDFDF0;
+	width: 20px;
+	height: 100px;
+	top: 300px;
+	left: 50px;
+	position: absolute;
+}
+
+#paddle2 {
+	background: #FDFDF0;
+	width: 20px;
+	height: 100px;
+	top: 300px;
+	left: 725px;
+	position: absolute;
+}
+
+#ball {
+	background: #FDFDF0;
+	display: block;
+	width: 20px;
+	height: 20px;
+	top: 400px;
+	left: 400px;
+	border-radius: 10px;
+	position: absolute;
+}
+
+#score {
+	font-style: normal;
+	font-size: 40px;
+	font-family: "Arial", Arial, sans-serif;
+	text-align: center;
+	color: #FDFDF0;
+}
+
+#player1Scores {
+	font-style: normal;
+	font-size: 70px;
+	font-family: "Arial", Arial, sans-serif;
+	left: 200px;
+	color: #FDFDF0;
+	position: absolute;
+}
+
+#player2Scores {
+	font-style: normal;
+	font-size: 70px;
+	font-family: "Arial", Arial, sans-serif;
+	left: 600px;
+	color: #FDFDF0;
+	position: absolute;
+}
+
+#fps {
+	font-style: italic;
+	font-size: 15px;
+	font-family: "Arial", Arial, sans-serif;
+	left: 415px;
+	top: 780px;
+	color: #FDFDF0;
+	position: absolute;
+}
+
+.basicInfo {
+	font-style: oblique;
+	font-size: 15px;
+	font-family: "Arial", Arial, sans-serif;
+	top: 10px;
+	color: #FDFDF0;
+	position: absolute;
+}
+
+#seconds {
+	left: 10px;
+}
+
+#ballSpeed {
+	left: 690px;
+}
+
+
