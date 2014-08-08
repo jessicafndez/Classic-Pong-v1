@@ -8,4 +8,4 @@ Classic Pong game.
 
 I need to repair bug with right paddle rebounds.
 
-Version: 08/08/14
+Version: 08/08/14.
